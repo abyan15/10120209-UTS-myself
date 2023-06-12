@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">10120209-UTS-myself</string>
+    //headings
+    <string name="head1">Selamat Datang</string>
+    <string name="head2">Disini Tersedia Semua Tentang Saya</string>
+    <string name="head3">Sudah siap?</string>
+    //desc
+    <string name="desc1">Aplikasi tentang saya</string>
+    <string name="desc2">Dari mulai profil, hobi, makanan dan minuman kesukaan sampai ke musik kesukaan</string>
+    <string name="desc3">Mari kita lebih mengenal diri saya</string>
+    //kegiatan
+    <string name="keg1">Mandi</string>
+    <string name="keg2">Makan</string>
+    <string name="keg3">Kuliah</string>
+    <string name="keg4">Berkumpul Bersama Teman</string>
+    <string name="keg5">Belajar</string>
+    <string name="keg6">Bermain Game</string>
+    <string name="keg7">Tidur</string>
+    //kegiatans
+    <string name="kegiatans1">Kegiatan 1</string>
+    <string name="kegiatans2">Kegiatan 2</string>
+    <string name="kegiatans3">Kegiatan 3</string>
+    <string name="kegiatans4">Kegiatan 4</string>
+    <string name="kegiatans5">Kegiatan 5</string>
+    <string name="kegiatans6">Kegiatan 6</string>
+    <string name="kegiatans7">Kegiatan 7</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

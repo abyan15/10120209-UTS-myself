@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/archivo</item>
+        <item>@font/archivo_black</item>
+        <item>@font/audiowide</item>
+        <item>@font/chau_philomene_one</item>
+        <item>@font/monofett</item>
+        <item>@font/monoton</item>
+        <item>@font/open_sans_extrabold</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/suranna</item>
+    </array>
+</resources>

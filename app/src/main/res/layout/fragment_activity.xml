@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_pearl"
+    tools:context=".ActivityFragment">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/open_sans_extrabold"
+                android:text="Kegiatan Harian"
+                android:textColor="#FAF5F5"
+                android:textSize="24sp"
+                android:layout_marginStart="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recylerView1"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                tools:listitem="@layout/item_kegiatan"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/open_sans_extrabold"
+            android:text="Daftar Teman"
+            android:textColor="#FAF5F5"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:layout_marginStart="10dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recylerView2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            tools:listitem="@layout/item_teman"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+
+</LinearLayout>
